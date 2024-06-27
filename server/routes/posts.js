@@ -4,7 +4,7 @@ const router = express.Router();
 
 // 模拟的博客帖子数据
 let posts = [
-  { id: 1, title: 'First Post', content: 'This is the first post.' },
+  { id: 1, title: '首个', content: '无敌了.' },
   { id: 2, title: 'Second Post', content: 'This is the second post.' }
 ];
 
