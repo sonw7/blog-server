@@ -2,9 +2,10 @@
   "name": "blog-server",
   "version": "1.0.0",
   "description": "自建博客后端",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +19,8 @@
     "mongoose": "^8.4.3"
   },
   "devDependencies": {
-    "nodemon": "^3.1.4"
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.4",
+    "vite": "^5.3.1"
   }
 }
